@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
-
+hello from gian
 def concept_coverage(answer, key_concepts):
     """
     Calculate the concept coverage score for a given answer.

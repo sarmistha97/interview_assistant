@@ -1,0 +1,25 @@
+{
+  "dsa": {
+
+    "binary_search": {
+      "question": "Explain binary search algorithm and its time complexity",
+      "difficulty": 1,
+      "key_concepts": [
+        "divide and conquer",
+        "sorted array",
+        "O(log n)",
+        "mid element",
+        "recursive and iterative approaches",
+        "half search space"
+      ],
+      "follow_ups": {
+        "sorted array": "Why must the array be sorted for binary search to work?",
+        "mid element": "How do we calculate the middle index safely?",
+        "O(log n)": "Why is the time complexity of binary search O(log n)?",
+        "divide and conquer": "How does binary search apply divide and conquer?",
+        "half search space": "Why does binary search eliminate half the search space each step?"
+      },
+      "ideal_answer": "Binary search is an algorithm used to search for an element in a sorted array by repeatedly dividing the search interval in half. It compares the target value with the middle element of the array. If the target is smaller, the search continues in the left half; otherwise, it continues in the right half. This process repeats until the element is found or the interval becomes empty. Since the search space is halved at each step, the time complexity is O(log n)."
+    }
+  }
+}
